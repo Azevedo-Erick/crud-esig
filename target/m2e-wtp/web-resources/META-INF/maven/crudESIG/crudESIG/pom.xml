@@ -33,14 +33,6 @@
 		    <version>42.2.23</version>
 		</dependency>
         
-		        <!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
-		<dependency>
-		    <groupId>com.github.jsimone</groupId>
-		    <artifactId>webapp-runner</artifactId>
-		    <version>9.0.27.1</version>
-		    <scope>provided</scope>
-		</dependency>
-		        
        
      </dependencies>
   <build>
