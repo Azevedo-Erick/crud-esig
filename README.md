@@ -24,7 +24,7 @@
 1. Com o projeto já baixado, vá em src/main/java/crudESIG.controller.ConnectionController.java
 	A partir disso edite a **url** da linha 18, deve estar algo como `jdbc:postgresql://localhost:5432/esigproject`, troque o `esigproject` pelo nome do seu banco de dados. troque o **user**, linha 19 pelo seu nome de usuário do banco de dados e o **password** linha 20 pela sua senha do banco;
 
-2. Se tudo ocorrer bem, ao iniciar o projeto e entrar na página web, ele criará a tabela **tarefa**, a qual será utilizada para processos com dados.
+2. Se tudo ocorrer bem, ao iniciar o projeto e entrar na página web `http://localhost:8080/crudESIG/faces/index.xhtml`, ele criará a tabela **tarefa**, a qual será utilizada para processos com dados.
 
 
 
