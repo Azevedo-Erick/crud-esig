@@ -282,6 +282,7 @@ public class TaskController implements Serializable {
 
 			upd.executeUpdate();
 			upd.close();
+			con.desconectar();
 			LogMessages.taskFinish();
 			this.taskList.clear();
 			this.searchForAll();
